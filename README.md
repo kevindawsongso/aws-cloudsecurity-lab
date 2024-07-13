@@ -3,38 +3,6 @@
 ## Overview
 Welcome to my AWS Cloud Cybersecurity Home Lab repository! This lab is designed to enhance my skills and knowledge in cloud-based cybersecurity, focusing on various AWS services and tools. The lab includes honeypot deployment, network traffic monitoring, and threat detection and analysis.
 
-## AWS Services Used
-- **EC2:** Hosting T-Pot honeypot instance.
-- **Security Hub:** Centralized view of security alerts and compliance status.
-- **CloudWatch:** Monitoring and logging of VPC flow logs and other metrics.
-- **IAM:** Identity and Access Management for securing AWS resources. Idenities managed for users and service inegrations
-- **CloudTrail:** Logging of AWS API calls for auditing and compliance to ensure secure access control between services.
-- **S3:** Storage for logs and other data.
-- **Billing and Cost Management:** Monitoring AWS usage and expenses.
-- **IAM Identity Center:** Centralized identity management.
-- **Guard Duty:** Threat detection and monitoring of T-Pot instance for malicious activity.
-- **Detective:** Detailed analysis and investigation of potential security issues to aid with threat hunting.
-
-## Lab Components
-
-### T-Pot Honeypot Deployment
-- **Objective:** Deploy a T-Pot honeypot on an EC2 instance to attract and log malicious activities.
-- **Setup:**
-  - Deployed T-Pot on an EC2 instance.
-  - Segmented network traffic using both subnets and security groups.
-
-### VPC Flow Logs to CloudWatch
-- **Objective:** Monitor and log network traffic within the VPC.
-- **Setup:**
-  - Configured VPC flow logs to send data to AWS CloudWatch.
-  - Set up CloudWatch dashboards and alarms for real-time monitoring.
-
-### Threat Detection and Analysis
-- **Objective:** Detect and analyze potential threats using AWS security services.
-- **Setup:**
-  - Enabled AWS Guard Duty for continuous threat detection.
-  - Used AWS Detective for detailed analysis and investigation of security findings.
-
 ## Projects and Achievements
 
 ### Project: Honeypot Deployment
@@ -57,3 +25,19 @@ Welcome to my AWS Cloud Cybersecurity Home Lab repository! This lab is designed 
   - Enabled Guard Duty for continuous monitoring.
   - Used Detective for in-depth analysis of security findings.
 - **Outcome:** Strengthened threat detection and response capabilities.
+
+
+
+## AWS Services Used
+- **EC2:** Hosting T-Pot honeypot instance.
+- **Security Hub:** Centralized view of security alerts and compliance status.
+- **CloudWatch:** Monitoring and logging of VPC flow logs and other metrics.
+- **IAM:** Identity and Access Management for securing AWS resources. Idenities managed for users and service inegrations
+- **CloudTrail:** Logging of AWS API calls for auditing and compliance to ensure secure access control between services.
+- **S3:** Storage for logs and other data.
+- **Billing and Cost Management:** Monitoring AWS usage and expenses.
+- **IAM Identity Center:** Centralized identity management.
+- **Guard Duty:** Threat detection and monitoring of T-Pot instance for malicious activity.
+- **Detective:** Detailed analysis and investigation of potential security issues to aid with threat hunting.
+
+
